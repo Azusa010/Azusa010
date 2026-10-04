@@ -1,16 +1,30 @@
-## Hi there 👋
+# Hi there 👋
 
-<!--
-**Azusa010/Azusa010** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile.
 
-Here are some ideas to get you started:
+## 👤 About Me
+- **Name:** [Your Name]
+- **Role:** [Your Role / Title]
+- **Location:** [City, Country]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Introduction
+I am passionate about [your interests or field].
+I enjoy building [types of projects] and learning [topics you are learning].
+
+## 🛠️ Skills
+- **Languages:** [e.g., Python, JavaScript, Go]
+- **Frameworks/Tools:** [e.g., React, Node.js, Docker]
+- **Currently Learning:** [technology/topic]
+
+## 📌 Current Focus
+- 🔭 Working on: [project or goal]
+- 🌱 Learning: [new skill or technology]
+- 🤝 Open to collaboration on: [project type]
+
+## 📫 Contact
+- Email: [your-email@example.com]
+- LinkedIn: [your-profile-link]
+- Portfolio: [your-website-link]
+
+## ⚡ Fun Fact
+[Add a fun fact about yourself]
