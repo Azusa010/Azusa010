@@ -1,31 +1,89 @@
-## Azusa010👋
+# Azusa010 👋
 
-🎓 **在校学生**  
-🔭正在学习 **AI Agent** 开发
+🎓 学生，正在学习 **AI Agent** 与 **LLM 应用开发**。
+
+目前主要关注：
+
+- AI Agent 架构与运行时设计
+- 上下文工程与提示词编排
+- 用户记忆与知识库
+- 工具调用与工作流编排
+- Agent 评估与测试
+- LLM 应用工程
 
 ---
-### 🌟 核心学习项目
-#### 🤖 [PersonalAgent](https://github.com/Azusa010/personal-agent) — 本地 Agent 
-> *桌面端的本地 Agent 运行时系统*
-> 面向桌面本地环境的 Agent 运行时系统，通过严格的分层契约与安全纵深防御，让本地 Agent 在受控的沙箱内安全调用系统能力。
-- **📐 Agent能力**
-  - **上下文工程**：包括提示词编排，状态栏（环境信息注入），上下文压缩
-  - **用户记忆和知识库**：记忆层次划分（工作记忆，长期记忆），记忆存储格式（Simple Notes/Advanced JSON Cards），长期记忆分类（情景记忆/语义记忆/程序记忆）；知识库向量存储，多路召回；open viking
-  - **工具**: 网络搜索，代码解释器，命令行工具（持久化），列出目录，grep/glob，old str->new str编辑文件工具（编辑后运行linter语法检查） ； 并行工具调用（无副作用的工具）
-  - **代码能力**：把精确计算，严格逻辑推到等问题 让 agent 用代码工具进行运算；用代码引导agent填写正确的tool参数；代码生成式UI，使用A2UI类协议，让Agent输出一份JSON渲染到HTML上；让Agent编写Agent，把优秀高质量的agent实现作为参考范例，创造新的agent
-  - **测试**：运行script指令进行测试
-- **🛡️ 五层安全策略链**：
-  - 工具调用逐层穿透：`Scope`（任务授权） ➔ `Retriever`（能力检索） ➔ `Binder`（参数校验与路径解析） ➔ `Executor`（策略评估） ➔ `Path-Guard`（规范化与符号链接逃逸阻断），杜绝越权破坏本地文件系统。
-- **📊 真实场景评估**：
-  - 拒绝纸上谈兵，内置端到端评测框架，涵盖 **真实日常办公、GAIA 复杂多步推理、$\tau$-bench 人机交互协作** 等 38 组核心评测集，实机运行全通（100% 事实核验与召回率）。
-- **🏗️ 工程化**：
-  - 采用 Monorepo ，全流程执行 `pnpm verify`：整合 TS 类型系统、ESLint、Python Ruff、Vitest 与 Pytest 交叉门禁。
 
-### 💻 更多项目实践
-- **[SakiFlow](https://github.com/Azusa010/SakiFlow)**：基于 Vue 3 的前端设计。
-- **[SakiVault](https://github.com/Azusa010/SakiVault)**：Vue3前端项目，使用bangumi API。
-- 
-### 🛠️ 技术栈
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)![CSS](https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white)
+## 🚀 Featured Project
+
+### [PersonalAgent](https://github.com/Azusa010/personal-agent)
+
+> 🚧 一个正在持续开发中的桌面端本地 Agent 运行时系统。
+
+PersonalAgent 旨在探索如何构建具备上下文管理、记忆、工具调用、代码执行和评估能力的个人 Agent。
+
+### 核心能力
+
+#### 上下文工程
+
+- 提示词编排
+- 状态栏与环境信息注入
+- 上下文压缩与管理
+
+#### 用户记忆与知识库
+
+- 工作记忆与长期记忆
+- Simple Notes 与 Advanced JSON Cards
+- 情景记忆、语义记忆与程序记忆
+
+#### 工具系统
+
+- 网络搜索
+- 代码解释器
+- 持久化命令行工具
+- 目录浏览
+- `grep` / `glob`
+- 文件编辑工具
+- 编辑后的 Linter 与语法检查
+- 并行工具调用
+
+#### Agent 代码能力
+
+- 使用代码工具进行精确计算
+- 使用代码辅助生成正确的工具参数
+- 代码生成式 UI
+- 探索基于 A2UI 类协议的交互方式
+
+#### 评估与测试
+
+- 应用场景评估
+- GAIA 复杂推理任务
+- τ-bench 人机交互任务
+- Agent、工具与工作流自动化测试
+
+---
+
+## 🛠️ Tech Stack
+
+![Languages](https://skillicons.dev/icons?i=py,js,ts)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Azusa010&layout=compact)
+
+---
+
+## 📚 Currently Learning
+
+- Agent Runtime 设计
+- Context Engineering
+- Memory Architecture
+- Tool Calling
+- Agent Evaluation
+- LLM 应用工程
+- 多 Agent 协作与工作流编排
+
+---
+
+## 🎯 Current Goal
+
+通过持续构建实际项目，学习如何设计更加可靠、可扩展、易于评估的 Agent 系统。
+
+欢迎交流 AI Agent、LLM 应用开发以及相关工程实践。
