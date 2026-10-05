@@ -1,4 +1,5 @@
 # Azusa010👋
+[English Version](README.en.md)
 
 🎓 **在校学生**  
 🔭正在学习 **AI Agent** 开发
