@@ -22,9 +22,11 @@
 - **🏗️ 工程化**：
   - 采用 Monorepo ，全流程执行 `pnpm verify`：整合 TS 类型系统、ESLint、Python Ruff、Vitest 与 Pytest 交叉门禁。
 
-### 💻 更多项目实践
-- **[SakiFlow](https://github.com/Azusa010/SakiFlow)**：基于 Vue 3 的前端设计。
-- **[SakiVault](https://github.com/Azusa010/SakiVault)**：Vue3前端项目，使用bangumi API。
+### 💻 更多应用实践
+* **🎨 [SakiFlow](https://github.com/Azusa010/SakiFlow)** · [在线体验 🌐](https://saki-flow...)
+  * 基于 Vue 3 + TypeScript 构建的 AI 智能工作流平台前端，集成工作台可视化、防抖搜索、多会话 AI 交互与代码在线编辑。
+* **📺 [SakiVault](https://github.com/Azusa010/SakiVault)**
+  * 基于 Vue 3 + TypeScript + Electron 构建的动漫桌面媒体中心，对接 Bangumi 开放 API，支持离线数据缓存与 Windows 本地安装分发。
 - 
 ### 🛠️ 技术栈
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)![CSS](https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white)
